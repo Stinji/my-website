@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: black url(media/background-image.jpeg) no-repeat 70% fixed;
+    background-size: 1050px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 12.5%;
+    color: white;
+    font-family: 'Source Sans Pro', Lato, Helvetica, Arial, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #999;
+    padding: 20px 40px;
+    margin: 0 10px;
+    font-size: 1.3em;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+    font-family: "Playfair Display";
+    /* border-bottom: 1px solid #999; */
+}
+
+.logo {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+h1 {
+    padding-top: 200px;
+    margin-left: 50px;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-bottom: 75px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+input {
+    border: 2px solid white;
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 1em;
+    margin-left: 50px;
+    padding: 14px 25px;
+    background: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input:hover {
+    background: white;
+    color: black;
+}
+
+main {
+    margin: 50px 50px 0;
+    border-left: 1px solid #999;
+}
+
+.socials {
+    display: flex;
+    height: 45px;
+    margin: 200px 50px 50px;
+}
+
+.socials a {
+    opacity: 0.7;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+
+.socials a:hover {
+    opacity: 1;
+}
